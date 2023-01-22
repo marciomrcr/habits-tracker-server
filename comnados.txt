@@ -15,3 +15,16 @@ npx prisma init --datasource-provider SQLite
 
 npm i @fastify/cors
 
+#### Criar o Seed
+npm i --save-dev @types/node
+criar prisma/seed.ts
+
+-> package.jon
+"prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+## Validação
+  npm i zod
+
+## Trabalhar com datas
+  npm i dayjs
